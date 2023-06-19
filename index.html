@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>СШ №19 г. Минска</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="assets/styles/reset.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/media.css">
+    <link rel="stylesheet" href="assets/styles/menu.css">
+</head>
+
+<body>
+    <script>
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+    </script>
+    
+    <header class="header wrapper">
+        <ul class="contacts">
+            <li class="contact">
+                <i class="bi bi-envelope-fill"></i>
+                <a class="contact__link" href="mailto:sch19@minskedu.gov.by">sch19@minskedu.gov.by</a>
+            </li>
+            <li class="contact">
+                <i class="bi bi-telephone-fill"></i>
+                <a class="contact__link" href="tel:+375173430862">+375-17-343-08-62</a>
+            </li>
+        </ul>
+        <ul class="links">
+            <li class="links__link">Контакты</li>
+            <li class="links__link">Гостевая книга</li>
+            <li class="links__strong-link">Электронное обращение</li>
+        </ul>
+    </header>
+
+    <nav class="menu wrapper">
+        <img class="menu__logo" src="assets/img/logo.png" alt="Логотип СШ №19">
+
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn prev" for="menu__toggle">
+            <span></span>
+        </label>
+
+        <ul class="menu__box">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="next" for="menu__toggle">
+                х
+            </label>
+
+            <li><a class="menu__item first" href="#">Главная</a></li>
+            <li><a class="menu__item" href="#">О школе</a></li>
+            <li><a class="menu__item" href="#">Одно окно</a></li>
+            <li><a class="menu__item" href="#">Учащимся</a></li>
+            <li><a class="menu__item" href="#">Родителям</a></li>
+            <li><a class="menu__item" href="#">Учителям</a></li>
+        </ul>
+    </nav>
+
+    <main class="main wrapper">
+        <p class="main__text">Добро пожаловать<br>в Школу №19</p>
+        <a class="main__button">Подробнее</a>
+    </main>
+
+    <section class="wrapper info">
+        <div class="info__box">
+            <div class="info__top">
+                <i class="bi bi-info-circle"></i>
+                <div>
+                    <h1 class="info__title">О школе</h1>
+                    <p class="info__more">Подробнее</p>
+                </div>
+            </div>
+            <img class="info__img" src="assets/img/info/1.png" alt="">
+            <p class="info__description">Школа № 19 в Минске существует более столетия, пережила Великую Отечественную
+                войну, получила имя Я. Купалы и готовит выпускников к поступлению в лучшие университеты Беларуси и за
+                рубежом.</p>
+            <button class="info__button more">Подробнее <i class="bi bi-arrow-right"></i></button>
+        </div>
+        <div class="info__box">
+            <div class="info__top">
+                <i class="bi bi-mortarboard"></i>
+                <div>
+                    <h1 class="info__title">Наука</h1>
+                    <p class="info__more">Подробнее</p>
+                </div>
+            </div>
+            <img class="info__img" src="assets/img/info/2.png" alt="">
+            <p class="info__description">Школа № 19 с углубленным изучением математики дала высшее образование более
+                15000 выпускникам. Сегодня школа продолжает фокусироваться на развитии востребованных в XXI веке
+                навыков.</p>
+            <button class="info__button more">Подробнее <i class="bi bi-arrow-right"></i></button>
+        </div>
+        <div class="info__box">
+            <div class="info__top">
+                <i class="bi bi-universal-access-circle"></i>
+                <div>
+                    <h1 class="info__title">Атлетика</h1>
+                    <p class="info__more">Подробнее</p>
+                </div>
+            </div>
+            <img class="info__img" src="assets/img/info/3.png" alt="">
+            <p class="info__description">Школа № 19 имеет спортивный комплекс, включающий три зала, хоккейную площадку,
+                футбольное поле и т.д. Она активно привлекает учеников к занятиям спортом и физической культурой.</p>
+            <button class="info__button more">Подробнее <i class="bi bi-arrow-right"></i></button>
+        </div>
+    </section>
+
+    <section class="wrapper news">
+        <div class="promo">
+            <h1 class="promo__title">Проморолик</h1>
+            <img class="promo__img" src="assets/img/promo.png" alt="">
+            <p class="promo__text">Мы познакомим вас с лучшим учреждением образования в Минске, где талантливые ученики
+                расскажут вам о жизни школы.</p>
+        </div>
+        <div>
+            <h1>Последние новости</h1>
+            <div class="novelties">
+                <div class="novelty">
+                    <img class="novelty__img" src="assets/img/news/n1.png" height="80" alt="">
+                    <div class="novelty__info">
+                        <span class="novelty__date">9 МАЯ, 2023</span>
+                        <p class="novelty__title">Чествование ветерана ВОВ Сучкова Куприяна Мироновича</p>
+                    </div>
+                </div>
+                <div class="novelty">
+                    <img class="novelty__img" src="assets/img/news/n2.png" height="80" alt="">
+                    <div class="novelty__info">
+                        <span class="novelty__date">6 МАЯ, 2023</span>
+                        <p class="novelty__title">Флеш-моб «Беларусью горжусь!»</p>
+                    </div>
+                </div>
+                <div class="novelty">
+                    <img class="novelty__img" src="assets/img/news/n3.png" height="80" alt="">
+                    <div class="novelty__info">
+                        <span class="novelty__date">6 МАЯ, 2023</span>
+                        <p class="novelty__title">77-ая Спартакиада школьников</p>
+                    </div>
+                </div>
+                <div class="novelty">
+                    <img class="novelty__img" src="assets/img/news/n4.png" height="80" alt="">
+                    <div class="novelty__info">
+                        <span class="novelty__date">6 МАЯ, 2023</span>
+                        <p class="novelty__title">Концерт, посвящённый Дню Победы</p>
+                    </div>
+                </div>
+                <div class="novelty">
+                    <img class="novelty__img" src="assets/img/news/n5.png" height="80" alt="">
+                    <div class="novelty__info">
+                        <span class="novelty__date">5 МАЯ, 2023</span>
+                        <p class="novelty__title">Парад "Маленьких парад - большой Победе!"</p>
+                    </div>
+                </div>
+                <div class="novelty">
+                    <img class="novelty__img" src="assets/img/news/n6.png" height="80" alt="">
+                    <div class="novelty__info">
+                        <span class="novelty__date">4 МАЯ, 2023</span>
+                        <p class="novelty__title">Вальс Победы прошел в Советском районе</p>
+                    </div>
+                </div>
+            </div>
+            <button class="more">Подробнее <i class="bi bi-arrow-right"></i></button>
+        </div>
+    </section>
+
+    <section class="wrapper exam">
+        <div>
+            <h1 class="exam__title">Выпускникам</h1>
+            <span class="exam__subtitle">Вступительные экзамены приближаются</span>
+            <p class="exam__text">Для выпускников, которые планируют поступать в университет, время вступительных
+                экзаменов уже не за горами. Не забывайте готовиться и использовать все доступные ресурсы для успешной
+                сдачи экзаменов.</p>
+            <button class="exam__button">Подробнее</button>
+        </div>
+    </section>
+
+    <footer class="footer wrapper">
+        <div class="about">
+            <img class="about__logo" src="assets/img/logo.png" alt="">
+            <div class="about__box">
+                <p class="about__text">220005<br>г. Минск<br>ул. Золотая Горка, 18/2</p>
+                <a class="about__link" href="tel:+375173430862">+375-17-343-08-62</a>
+                <a class="about__link" href="mailto:sch19@minskedu.gov.by">sch19@minskedu.gov.by</a>
+            </div>
+        </div>
+        <div>
+            <h1 class="options-title">О школе</h1>
+            <ul class="options">
+                <li class="options__option">Администрация школы</li>
+                <li class="options__option">Библиотека</li>
+                <li class="options__option">История и традиции</li>
+                <li class="options__option">Профсоюз</li>
+                <li class="options__option">Устав школы</li>
+                <li class="options__option">Цель и задачи</li>
+            </ul>
+        </div>
+        <div>
+            <h1 class="options-title">Идеология</h1>
+            <ul class="options">
+                <li class="options__option">Год мира и созидания</li>
+                <li class="options__option">Государственная символика</li>
+                <li class="options__option">Классные часы</li>
+                <li class="options__option">Музей</li>
+                <li class="options__option">Общественные объединения</li>
+                <li class="options__option">Патриотическое воспитание</li>
+            </ul>
+        </div>
+        <div>
+            <h1 class="options-title">Учащимся</h1>
+            <ul class="options">
+                <li class="options__option">Выпускникам</li>
+                <li class="options__option">Деловой стиль одежды</li>
+                <li class="options__option">Памятка учащимся</li>
+                <li class="options__option">Питание</li>
+                <li class="options__option">Профориентация</li>
+                <li class="options__option">"Ученический билет"</li>
+            </ul>
+        </div>
+    </footer>
+
+    <section class="wrapper bottom">
+        <p class="bottom__text">Made with <span class="heart">❤</span> by nikijaz</span></p>
+        <ul class="bottom__links">
+            <li class="bottom__link">
+                <i class="bi bi-telegram"></i>
+            </li>
+            <li class="bottom__link">
+                <i class="bi bi-facebook"></i>
+            </li>
+            <li class="bottom__link">
+                <i class="bi bi-instagram"></i>
+            </li>
+        </ul>
+    </section>
+</body>
+
+</html>
