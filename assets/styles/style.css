@@ -167,7 +167,7 @@ i {
 /* main start */
 .main.wrapper {
     width: 100%;
-    min-height: calc(var(--vh, 1vh) * 100 + 30px);
+    min-height: 100vh;
 
     padding-bottom: 100px;
 
