@@ -44,10 +44,6 @@
         padding-right: 5px;
     }
 
-    .novelty__info {
-        padding-top: 0;
-    }
-
     .novelty__date {
         font-size: 10px;
     }
@@ -190,17 +186,23 @@
         padding-right: 0px;
     }
 
+    .novelties {
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
     .novelty__date {
-        font-size: 8px;
+        font-size: 14px;
     }
 
     .novelty__title {
-        margin-top: 4px;
-        font-size: 10px;
+        font-size: unset;
     }
 
     .novelty__img {
-        margin-right: 5px;
+        height: 80px;
+        width: 80px;
     }
 
     .exam.wrapper {
